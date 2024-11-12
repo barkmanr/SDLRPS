@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Basics">
+      <UniqueIdentifier>{abfca492-ba61-4611-a996-c7b685e8f516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Files">
+      <UniqueIdentifier>{28802bfd-aa4f-4abd-92e0-77724d6157bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Files">
+      <UniqueIdentifier>{ddd2392e-b5ab-48e7-b6d4-e66d18f4e336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{e07bdeb7-08c0-44c2-95b5-2ba85fb11ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{902e9287-4940-4725-a5a9-fbbfbbfe9edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderers">
+      <UniqueIdentifier>{5a4b7d6d-846e-48b4-9c3e-260723cee52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers">
+      <UniqueIdentifier>{98fda218-8494-44dc-802e-5e4f59ca401c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{1ed7339e-5787-460b-ac61-889cd183596c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{e0a1e965-ce73-4833-a1c4-bb3b727a3779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MATH">
+      <UniqueIdentifier>{be651b94-f6de-42a3-8888-d89cefe1a458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MATH">
+      <UniqueIdentifier>{0d73431c-8a7b-4c00-a78c-19417afe9a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Lab">
+      <UniqueIdentifier>{cab79db4-95d1-4724-ab56-2677ef6d8507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab">
+      <UniqueIdentifier>{6cf7996c-96ea-420d-8c12-c1f2480d8c43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Asset.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetController.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileController.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackAllocator.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnim.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLRPS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="TGAReader.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="Timing.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFont.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioController.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Song.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="WavDraw.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsController.cpp">
+      <Filter>Source Files\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Source Files\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="HeroineState.cpp">
+      <Filter>Source Files\Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="Heroine.cpp">
+      <Filter>Source Files\Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLevel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Source Files\Lab</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicStructs.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializable.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardIncludes.h">
+      <Filter>Header Files\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetController.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileController.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackAllocator.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnim.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="TGAReader.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timing.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFont.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioController.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Song.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="WavDraw.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsController.h">
+      <Filter>Header Files\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Header Files\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="HeroineState.h">
+      <Filter>Header Files\Lab</Filter>
+    </ClInclude>
+    <ClInclude Include="Heroine.h">
+      <Filter>Header Files\Lab</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLevel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Header Files\Lab</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
